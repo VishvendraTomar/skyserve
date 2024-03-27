@@ -18,7 +18,7 @@ const FileUpload = ({ onFileUpload }) => {
   return (
     <div {...getRootProps()} style={{ border: '2px dashed #ccc',  textAlign: 'center',width: '90%', margin: 'auto',height:"60px" ,marginBottom:'12px' }}>
       <input {...getInputProps()} />
-      <p>Drag & drop GeoJSON or KML files here, or click to select files</p>
+      <p>Drag & drop GeoJSON files here, or click to select files</p>
     </div>
   );
 };
