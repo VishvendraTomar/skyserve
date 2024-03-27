@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <DIV>
         {/* <Link to={"/"}>Home</Link> */}
-        <Link to={'/'} >React flow</Link>
+        <Link to={'/'} >Geo Data</Link>
         <Link to={"/signup"}>SignUp</Link>
         <Link to={"/login"}>Login</Link>
     </DIV>
